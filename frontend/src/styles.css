@@ -7,3 +7,17 @@
 .evidence p{overflow-wrap:anywhere}
 
 .workspace{background-image:none}.sidebar{background:oklch(27% .035 155)}.sidebar nav button.active{background:oklch(35% .04 155);border-color:oklch(79% .07 90)}.login-art{background:oklch(30% .045 155)}.login-art p{color:oklch(84% .035 115)}.postal-mark{border:3px double oklch(80% .04 100);color:oklch(85% .04 100);display:inline-block;padding:22px 35px;transform:rotate(-7deg);font-size:15px;line-height:2;letter-spacing:4px;margin-top:30px}.postal-mark b{font-weight:400;font-size:22px;display:block}.postal-mark span{font-family:'Space Mono',monospace;font-size:10px;letter-spacing:2px}.page-title{border-bottom:1px dashed var(--line);margin-bottom:25px}.evidence pre{background:oklch(89% .018 110)}.actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px}.status.cancelled{background:oklch(85% .02 90);color:var(--muted)}.evidence table{table-layout:fixed}.evidence td,.evidence th{overflow-wrap:anywhere}.evidence td:first-child{width:15%}.evidence td details pre{max-height:300px}.split code{overflow-wrap:anywhere}.evidence p{overflow-wrap:anywhere}#target-data{max-height:300px}.evidence button[data-restore]{margin-top:15px}@media(max-width:767px){.postal-mark{display:none}}
+
+/* Versioned correction ledger: tab per published version. */
+.version-tabs{display:flex;flex-wrap:wrap;gap:1px;background:var(--line);border:1px solid var(--line);margin:22px 0 26px}
+.version-tab{flex:1 1 200px;background:var(--light);border:0;padding:14px 16px;text-align:left;font-size:12px;color:var(--muted);display:block}
+.version-tab small{display:block;margin-top:6px;color:var(--muted)}
+.version-tab:hover{transform:none;opacity:1;background:oklch(93% .02 110)}
+.version-tab.active{background:var(--rust);color:var(--light)}
+.version-tab.active small{color:oklch(88% .03 90)}
+#correct-form{border-top:1px dashed var(--line);margin-top:18px;padding-top:6px}
+#correct-form .code-input{min-height:170px}
+.version-recovery{margin-top:12px}
+.version-recovery details pre{max-height:220px}
+.evidence table td:last-child button{white-space:nowrap}
+@media(max-width:767px){.version-tab{flex:1 1 100%}}
